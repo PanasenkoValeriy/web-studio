@@ -1,0 +1,265 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::after,
+*::before {
+    box-sizing: inherit; 
+}
+
+h1,h2,h3,h4,h5,h6,p {
+margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none ;
+    color: inherit;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.nav-list {
+
+}
+/* header */
+
+.header {
+    width: 100%;
+    background: #ffffff;
+  }
+  
+  .header nav {
+    display: flex;
+    padding: 24px 5%;
+  }
+  
+  .logo {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .logo .web {
+    color: #2196f3;
+  }
+  
+  .nav {
+    display: flex;
+    margin-left: 90px;
+  }
+  
+  .nav li {
+    display: flex;
+    margin: auto 25px;
+  }
+  
+  .nav-list a,
+  .info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+  }
+
+  
+  
+  .info {
+    display: inline-flex;
+    margin-left: auto;
+  }
+  
+  .info {
+    margin: auto 25px;
+    color: #757575;
+  }
+  
+  .info:hover.info:active {
+    color: #2196F3;
+  }
+  
+  .info:hover svg,.info:active svg {
+    stroke: #2196F3;
+  }
+  
+  .nav-list-item a:hover,.nav-list-item a:active {
+    color: #2196F3;
+  }
+  
+  /* hero */
+  
+  .page-section {
+    background: url("../images/basis.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .page-section div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .page-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  .main-button {
+    height: 50px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    margin: 0 auto;
+    border-width: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    padding: 10px 32px;
+  }
+  
+  .main-button {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  
+  .titles {
+    display: flex;
+    padding: 0 5%;
+  }
+  
+  .titles li {
+    margin: 0 15px;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  .names {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  
+  .images li img {
+    width: 320px;
+    height: auto;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 50px;
+  }
+  
+  /* Наша команда  */
+  
+  .team {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .team-section {
+    background: #f5f4fa;
+    padding: 52px 0;
+  }
+  
+  .card {
+    background: #ffffff;
+    flex: 1 1 25%;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card h4,
+  .card p {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card h4 {
+    margin: 25px 0 0;
+    color: #212121;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 30px;
+  }
+  
+  .social-item {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .social-item:hover {
+    background-color: #2196F3;
+    border-radius: 50%;
+  }
+  
+  .social-item:hover svg {
+    fill: #ffffff;
+  }
+  
+  .social-item svg {
+    fill: #AFB1B8;
+  }
+  
+  
+  /* footer */
+  
+  
+  
