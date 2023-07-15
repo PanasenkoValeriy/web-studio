@@ -15,6 +15,9 @@
     position: relative;
   }
 
+ 
+
+
   
   .modal-input-title {
 
@@ -47,7 +50,7 @@
   .modal-icon {
       position: absolute;
       left: 12px;
-      top: 50%;
+      top: 55%; 
   }
   
   .modal-form-input:focus + .modal-icon {

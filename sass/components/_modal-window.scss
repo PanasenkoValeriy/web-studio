@@ -31,7 +31,7 @@
   &:hover,
   &:focus {
     fill:$linkColor;
-    border:$linkColor;
+    border: 1px solid $linkColor;
   }
   
 }
