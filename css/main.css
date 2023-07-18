@@ -546,4 +546,20 @@ a:focus {
 
 .modal-form-input:focus + .modal-icon {
   fill: #2196F3;
+}
+
+.modal-button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  background-color: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  padding: 10px 52px;
+  display: flex;
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */
