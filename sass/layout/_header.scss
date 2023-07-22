@@ -30,15 +30,37 @@
   display: none;
 }
 
-.mobile-menu-btn {
-  background-color: transparent;
-  border: none;
-}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+  display: none;
+  }
+
+  .list-contact {
+    display: none; 
+  }
+
+  .mobile-menu-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  
+
+
+
+  }
 
 @media screen and (min-width: 768px) {
   .nav-list {
     display: flex;
   }
+
+  @media screen and (min-width: 1200px) {
+    .header .container {
+      display: flex;
+      align-items: center;
+    }
 
   .nav-list-item {
     color: $titleColor;
@@ -109,11 +131,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .header .container {
-    display: flex;
-    align-items: center;
-  }
+
 
   .logo {
     margin-right: 93px;
