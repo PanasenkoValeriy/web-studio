@@ -199,11 +199,13 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
+  background: color #c4c4c4;
 }
 
 @media (min-device-pixel-ratio: 2) and (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/mobile.2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/mobile.2@.jpg);
   }
 }
 .hero-title {
@@ -246,7 +248,7 @@ a:focus {
 }
 @media (min-device-pixel-ratio: 2) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/mobile.2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/tablet.2@.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -270,7 +272,7 @@ a:focus {
 }
 @media (min-device-pixel-ratio: 2) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/mobile.2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/dekstop@2.jpg);
   }
 }
 .advantages-list {
@@ -445,7 +447,7 @@ a:focus {
     transform: translateX(0);
     transition: opacity 900ms ease-in, transform 900ms ease-in;
   }
-  .mobile-nav-list {
+  .mobile-list {
     margin-bottom: 302px;
   }
   .mobile-nav-item {
