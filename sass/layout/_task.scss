@@ -1,4 +1,14 @@
-.task-title {
+.section {
+  display: none;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .section {
+    display: block;
+  }
+
+  .task-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -7,24 +17,27 @@
     color: #212121;
     margin-bottom: 50px;
   }
-  
+
   .task-list {
     display: flex;
-    justify-content: space-between;
   }
-  
-  .task-list-item {
-    display: inline-block;
+
+  .task-list-item:not(:last-child) {
+margin-right: 30px;
+
   }
-  
+
+  .task-img-thumb {
+position: relative;
+  }
+
   .task-text {
     position: absolute;
     bottom: 0;
-  
+    margin: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
@@ -35,3 +48,5 @@
     justify-content: center;
     align-items: center;
   }
+
+}
