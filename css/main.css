@@ -534,6 +534,122 @@ a:focus {
     margin-bottom: 50px;
   }
 }
+.footer {
+  background-color: #2f303a;
+  margin-top: 60px;
+  margin: 60px;
+}
+
+.footer-thumb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-input::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2F303A;
+  color: #FFFFFF;
+  padding-left: 16px;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.footer-submit-button {
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.footer-submit-button:hover {
+  background: #188CE8;
+}
+
+.footer-submit-icon {
+  margin-left: 10px;
+  fill: white;
+}
+
+.footer-social-list {
+  display: flex;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-contacts-item {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-contacts-item:first-child {
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.footer-contacts-item:not(:first-child) {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.studio {
+  color: white;
+}
+
+.studio:hover {
+  color: #2196F3;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
