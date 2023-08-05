@@ -1,6 +1,9 @@
 .team-section {
-
   background-color: #f5f4fa;
+}
+
+.team-img {
+  margin-bottom: 30px;
 }
 
 .team-title {
@@ -20,7 +23,6 @@
 // }
 
 .team-list-item {
- 
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -41,7 +43,6 @@
   text-align: center;
   letter-spacing: 0.48px;
   color: $titleColor;
-
   margin-bottom: 10px;
 }
 
@@ -96,21 +97,20 @@
 
 // tablet
 
-@media screen and (min-width:767px) {
+@media screen and (min-width: 767px) {
   .team-list {
-  display: flex;
-   flex-wrap: wrap;
-  gap: 30px;
- }
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
   .team-list-item {
     flex-basis: calc((100% - 2 * 30px) / 2);
   }
-  
 }
 
 // desktop
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .team-list-item {
     flex-basis: calc((100% - 4 * 30px) / 4);
   }
@@ -121,5 +121,4 @@
     letter-spacing: 1.08px;
     margin-bottom: 50px;
   }
-
 }
