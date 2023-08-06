@@ -130,4 +130,33 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    text-align: unset;
+  }
+
+  .footer-thumb {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .footer-contacts {
+    margin-right: 70px;
+    margin-bottom: 0;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-input {
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
+
+  .footer-social-list {
+    margin-bottom: 0;
+  }
 }
