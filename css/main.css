@@ -613,6 +613,7 @@ a:focus {
   font-size: 18px;
   margin-right: 12px;
   margin-bottom: 20px;
+  margin-left: -10px;
 }
 
 .footer-input::-moz-placeholder {
