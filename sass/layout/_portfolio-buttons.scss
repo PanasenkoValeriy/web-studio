@@ -21,11 +21,15 @@
     border-radius: 4px;
   }
 
-.portfolio-btn-section {
-    margin-top: 60px;
+.portfolio-btn-list {
+   margin-bottom: 40px;
     
+   @media screen and (min-width: 1200px) {
+    margin-bottom: 30px;
+  }
+
     @media screen and (min-width: 1200px) {
-      margin-top: 101px;
+      margin-bottom: 50px;
     }
   }
   

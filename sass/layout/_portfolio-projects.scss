@@ -1,4 +1,4 @@
-.project-list-item:not(:last-child) {
+.project-list-item {
   margin-bottom: 30px;
 }
 
@@ -13,6 +13,7 @@
 .project-thumb {
   overflow: hidden;
   position: relative;
+ 
 }
 
 .text-overlay {
@@ -42,6 +43,11 @@
   margin-bottom: 4px;
 }
 
+.card-content {
+  padding: 20px 24px;
+  border: 1px solid #EEE;
+}
+
 .project-subtitle {
     font-size: 16px;
     line-height: 30px;
@@ -57,6 +63,7 @@
     color: #ffffff;
     padding: 77px 24px;
   }
+
 
   // desktop
   @media screen and (min-width:1200px) {
