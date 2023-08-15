@@ -1025,6 +1025,13 @@ a:focus {
   position: relative;
 }
 
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
 .modal-input-title {
   color: #757575;
   font-size: 12px;
@@ -1095,7 +1102,7 @@ a:focus {
   font-size: 12px;
   color: #757575;
   letter-spacing: 0.36px;
-  padding-left: 30px;
+  padding-left: 8px;
 }
 
 .checkbox-link {
@@ -1108,6 +1115,5 @@ a:focus {
     font-size: 12px;
     color: #757575;
     letter-spacing: 0.36px;
-    padding-left: 10px;
   }
 }/*# sourceMappingURL=main.css.map */

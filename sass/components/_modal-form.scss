@@ -19,7 +19,13 @@
   }
 
  
+.checkbox-label {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 14px;
 
+}
 
   
   .modal-input-title {
@@ -93,6 +99,7 @@
   display: flex;
   margin: auto;
   margin-top: 12px;
+
   
  
  }
@@ -101,8 +108,10 @@
   font-size: 12px;
   color: #757575;
   letter-spacing: 0.36px;
-  padding-left: 30px;
-  
+  padding-left: 8px;
+
+
+
 
 }
 
@@ -117,11 +126,11 @@
     font-size: 12px;
     color: #757575;
     letter-spacing: 0.36px;
-    padding-left: 10px;
+  
     
 }
 }
+ .checkbox-input {
 
-.div-checkbox-input {
-
-}
+ 
+ }
